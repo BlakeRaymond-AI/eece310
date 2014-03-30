@@ -9,15 +9,17 @@ def register_user(request):
     state = "Please register below..."
     username = password = str()
     if request.POST:
+        username = request.POST.get('username')
         email = request.POST.get('email')
         password = request.POST.get('password')
         first_name = request.POST.get('first_name')
         last_name = request.POST.get('last_name')
 
         try:
-            user = User.objects.create_user(email, email=email, password=password)
+            user = User.objects.create_user(username, email=email, password=password)
             user.first_name = first_name
             user.last_name = last_name
+            user.save()
 
             state = "You have successfully registered."
         except:
@@ -42,4 +44,5 @@ def login_user(request):
         else:
             state = "Your username and/or password were incorrect."
 
-    return render_to_response('auth.html',{'state':state, 'username': username})
+    return render_to_response('auth.html', {'state':state, 'username': username}, context_instance=RequestContext(request))
+
