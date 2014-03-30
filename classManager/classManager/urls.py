@@ -10,6 +10,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'classManager.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     url(r'^login/$', auth.views.login_user),
+    url(r'^logout/$', auth.views.logout_user),
     url(r'^register/$', auth.views.register_user),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', views.index)

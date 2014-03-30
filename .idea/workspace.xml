@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06b9bb2e-0f9f-4f6e-b683-b32ef890bdf8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classManager/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classManager/classManager/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classManager/templates/logout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/db.sqlite3" afterPath="$PROJECT_DIR$/classManager/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/classManager/urls.py" afterPath="$PROJECT_DIR$/classManager/classManager/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/classManager/auth/views.py" afterPath="$PROJECT_DIR$/classManager/classManager/auth/views.py" />
@@ -30,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classManager/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classManager/classManager/settings.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,7 +41,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classManager/classManager/auth/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.0" vertical-offset="539" max-vertical-offset="975">
+            <state line="66" column="0" selection-start="2476" selection-end="2476" vertical-scroll-proportion="0.0" vertical-offset="725" max-vertical-offset="1080">
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -68,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classManager/classManager/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.63380283" vertical-offset="0" max-vertical-offset="355">
+            <state line="15" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -97,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classManager/classManager/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="17" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.7183099" vertical-offset="0" max-vertical-offset="355">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -120,7 +110,16 @@
       <file leaf-file-name="auth.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classManager/templates/auth.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="15" selection-start="400" selection-end="400" vertical-scroll-proportion="-3.0833333" vertical-offset="121" max-vertical-offset="480">
+            <state line="26" column="7" selection-start="761" selection-end="761" vertical-scroll-proportion="-11.208333" vertical-offset="121" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classManager/templates/logout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="7" selection-start="94" selection-end="94" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -144,10 +143,11 @@
         <option value="$PROJECT_DIR$/classManager/classManager/settings.py" />
         <option value="$PROJECT_DIR$/classManager/templates/auth.html" />
         <option value="$PROJECT_DIR$/classManager/templates/register.html" />
-        <option value="$PROJECT_DIR$/classManager/classManager/urls.py" />
         <option value="$PROJECT_DIR$/classManager/templates/index.html" />
-        <option value="$PROJECT_DIR$/classManager/classManager/auth/views.py" />
         <option value="$PROJECT_DIR$/classManager/classManager/views.py" />
+        <option value="$PROJECT_DIR$/classManager/templates/logout.html" />
+        <option value="$PROJECT_DIR$/classManager/classManager/auth/views.py" />
+        <option value="$PROJECT_DIR$/classManager/classManager/urls.py" />
       </list>
     </option>
   </component>
@@ -577,31 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/templates/auth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="15" selection-start="400" selection-end="400" vertical-scroll-proportion="-3.0833333" vertical-offset="121" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.0" vertical-offset="539" max-vertical-offset="975">
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classManager/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="10" selection-start="121" selection-end="121" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
@@ -611,9 +586,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classManager/classManager/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.63380283" vertical-offset="0" max-vertical-offset="355">
+        <state line="15" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classManager/templates/auth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="7" selection-start="761" selection-end="761" vertical-scroll-proportion="-11.208333" vertical-offset="121" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classManager/templates/logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="7" selection-start="94" selection-end="94" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classManager/classManager/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="2476" selection-end="2476" vertical-scroll-proportion="0.0" vertical-offset="725" max-vertical-offset="1080">
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classManager/classManager/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.7183099" vertical-offset="0" max-vertical-offset="355">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>

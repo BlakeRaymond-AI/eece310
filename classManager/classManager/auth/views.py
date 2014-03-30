@@ -57,3 +57,10 @@ def login_user(request):
 
     return render_to_response('auth.html', {'state':state, 'username': username}, context_instance=RequestContext(request))
 
+
+def logout_user(request):
+    message = "You are not logged in."
+    if 'username' in request.session:
+        del request.session['username']
+        message = "You have successfully logged out."
+    return render(request, 'logout.html', {'message': message})
