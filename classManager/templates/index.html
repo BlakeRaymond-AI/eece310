@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block content %}
+
 {% if logged_in %}
 Welcome, {{ first_name }}!
 {% else %}
 Please <a href="/login/">log in</a>.
 {% endif %}
-</body>
-</html>
+
+{% endblock %}
