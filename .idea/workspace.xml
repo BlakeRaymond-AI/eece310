@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06b9bb2e-0f9f-4f6e-b683-b32ef890bdf8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classManager/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/db.sqlite3" afterPath="$PROJECT_DIR$/classManager/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/templates/auth.html" afterPath="$PROJECT_DIR$/classManager/templates/auth.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/templates/index.html" afterPath="$PROJECT_DIR$/classManager/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/templates/logout.html" afterPath="$PROJECT_DIR$/classManager/templates/logout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/templates/register.html" afterPath="$PROJECT_DIR$/classManager/templates/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/templates/base.html" afterPath="$PROJECT_DIR$/classManager/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/classManager/auth/views.py" afterPath="$PROJECT_DIR$/classManager/classManager/auth/views.py" />
     </list>
     <ignored path="eece310.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,12 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classManager/classManager/auth/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1080">
+            <state line="54" column="13" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.63559324" vertical-offset="585" max-vertical-offset="1080">
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classManager/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="471" selection-end="471" vertical-scroll-proportion="0.90909094" vertical-offset="0" max-vertical-offset="390">
+            <state line="20" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
@@ -144,13 +140,13 @@
         <option value="$PROJECT_DIR$/classManager/classManager/auth/__init__.py" />
         <option value="$PROJECT_DIR$/classManager/classManager/settings.py" />
         <option value="$PROJECT_DIR$/classManager/classManager/views.py" />
-        <option value="$PROJECT_DIR$/classManager/classManager/auth/views.py" />
         <option value="$PROJECT_DIR$/classManager/classManager/urls.py" />
         <option value="$PROJECT_DIR$/classManager/templates/index.html" />
         <option value="$PROJECT_DIR$/classManager/templates/auth.html" />
         <option value="$PROJECT_DIR$/classManager/templates/logout.html" />
         <option value="$PROJECT_DIR$/classManager/templates/register.html" />
         <option value="$PROJECT_DIR$/classManager/templates/base.html" />
+        <option value="$PROJECT_DIR$/classManager/classManager/auth/views.py" />
       </list>
     </option>
   </component>
@@ -466,7 +462,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -518,7 +514,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="20" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="459">
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,29 +570,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classManager/classManager/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1080">
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -631,8 +609,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classManager/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="471" selection-end="471" vertical-scroll-proportion="0.90909094" vertical-offset="0" max-vertical-offset="390">
+        <state line="20" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classManager/classManager/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classManager/classManager/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="13" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.63559324" vertical-offset="585" max-vertical-offset="1080">
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

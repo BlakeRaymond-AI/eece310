@@ -1,5 +1,4 @@
-from django.http import HttpResponse
-from django.shortcuts import render_to_response, render
+from django.shortcuts import render_to_response, render, redirect
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.models import User
 from django.template import loader, RequestContext
@@ -34,7 +33,7 @@ def register_user(request):
         'first_name': first_name,
         'last_name':last_name
     }
-    return render_to_response('register.html', form, context_instance=RequestContext(request))
+    return render(request, 'register.html', form)
 
 
 def login_user(request):
@@ -50,12 +49,13 @@ def login_user(request):
                 login(request, user)
                 state = "You're successfully logged in!"
                 request.session['username'] = username
+                return redirect('/')
             else:
                 state = "Your account is not active, please contact the site admin."
         else:
             state = "Your username and/or password were incorrect."
 
-    return render_to_response('auth.html', {'state':state, 'username': username}, context_instance=RequestContext(request))
+    return render(request, 'auth.html', {'state':state, 'username': username})
 
 
 def logout_user(request):
