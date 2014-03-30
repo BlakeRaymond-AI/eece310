@@ -1,5 +1,6 @@
 from django.conf.urls import patterns, include, url
 import auth.views
+import views
 
 from django.contrib import admin
 admin.autodiscover()
@@ -11,4 +12,5 @@ urlpatterns = patterns('',
     url(r'^login/$', auth.views.login_user),
     url(r'^register/$', auth.views.register_user),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', views.index)
 )

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+{% if logged_in %}
+Welcome, {{ first_name }}!
+{% else %}
+Please <a href="/login/">log in</a>.
+{% endif %}
+</body>
+</html>
