@@ -14,4 +14,3 @@ class Event(models.Model):
 
     def __unicode__(self):
         return self.name
-    
