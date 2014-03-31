@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'eece310.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
+    url(r'^accounts/', include('registration.urls')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'', include('classManager.urls')),
 )

@@ -36,7 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'classManager'
+    'classManager',
+    'registration'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -83,4 +84,4 @@ TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 
 STATIC_URL = '/static/'
 
-LOGIN_URL = '/login/'
+LOGIN_URL = '/accounts/login'
