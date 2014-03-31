@@ -13,3 +13,6 @@ class EventForm(forms.Form):
 
 class MessageForm(forms.Form):
     message = forms.CharField(max_length=10000)
+
+class TagSearchForm(forms.Form):
+    query = forms.CharField(max_length=255)

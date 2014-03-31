@@ -4,7 +4,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render, redirect
 
 from models import Calendar, Event, Message
-from forms import CalendarForm, EventForm, MessageForm
+from forms import CalendarForm, EventForm, MessageForm, TagSearchForm
 
 from datetime import datetime
 
@@ -15,7 +15,8 @@ def index(request):
 def view_calendar(request, calendar_id):
     calendar = get_object_or_404(Calendar, pk=calendar_id)
     events = Event.objects.filter(calendar=calendar)
-    return render(request, "calendar.html", {"calendar": calendar, "events": events})
+    form = TagSearchForm()
+    return render(request, "calendar.html", {"calendar": calendar, "events": events, "tag_search_form": form})
 
 @login_required
 def view_event(request, event_id):
@@ -66,3 +67,13 @@ def post_message(request, event_id):
             return HttpResponseRedirect(reverse("view_event", args=[event_id]))
         else:
             return HttpResponse(form.errors)
+
+@login_required
+def tag_search(request, calendar_id):
+    if request.method == "POST":
+        form = TagSearchForm(request.POST)
+        if form.is_valid():
+            query = form.cleaned_data['query']
+            calendar = get_object_or_404(Calendar, pk=calendar_id)
+            matches = Event.objects.filter(tags__icontains=query, calendar=calendar)
+            return render(request, "tag_search.html", {"calendar": calendar, "events": matches, "query": query})

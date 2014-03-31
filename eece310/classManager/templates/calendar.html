@@ -17,4 +17,11 @@
     <input type="submit" value="Add event"/>
 </form>
 
+<h3>Search by tag</h3>
+
+<form action="{% url 'tag_search' calendar.id %}" method="POST">{% csrf_token %}
+    {{ tag_search_form.as_p }}
+    <input type="submit" value="Search"/>
+</form>
+
 {% endblock %}

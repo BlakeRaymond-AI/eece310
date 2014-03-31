@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>{{ calendar.name }}</h1>
+
+<h3>Search results for "{{ query }}"</h3>
+
+{% if not events %}
+No results found.
+{% else %}
+
+<table width="30%">
+    {% for event in events %}
+    <tr>
+        <td><a href="{% url 'view_event' event.id %}">{{ event.name }}</a></td>
+        <td>{{ event.datetime }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endif %}
+
+<form action="{% url 'view_calendar' calendar.id %}"  method="GET">{% csrf_token %}
+    <input type="submit" value="Back to calendar"/>
+</form>
+
+{% endblock %}
