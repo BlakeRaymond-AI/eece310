@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06b9bb2e-0f9f-4f6e-b683-b32ef890bdf8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/db.sqlite3" afterPath="$PROJECT_DIR$/classManager/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/templates/base.html" afterPath="$PROJECT_DIR$/classManager/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classManager/classManager/auth/views.py" afterPath="$PROJECT_DIR$/classManager/classManager/auth/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eece310/classManager/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eece310/classManager/templates/create_calendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eece310/classManager/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eece310/classManager/urls.py" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\classManager\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\classManager\auth\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\classManager\auth\views.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\classManager\models.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\classManager\settings.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\classManager\urls.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\classManager\views.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\classManager\wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\manage.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\templates\auth.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\templates\base.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\templates\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\templates\logout.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\templates\main.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\eece310\classManager\templates\register.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eece310.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,68 +45,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classManager/classManager/auth/views.py">
+      <file leaf-file-name="decorators.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/django/contrib/auth/decorators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="13" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.63559324" vertical-offset="585" max-vertical-offset="1080">
+            <state line="21" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="1136">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eece310/eece310/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="23" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.0" vertical-offset="457" max-vertical-offset="1472">
               <folding>
-                <element signature="e#0#65#0" expanded="true" />
+                <marker date="1396243907287" expanded="true" signature="0:244" placeholder="&quot;&quot;&quot;Django settings for eece310 project....&quot;&quot;&quot;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classManager/templates/index.html">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eece310/classManager/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="25" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
+            <state line="9" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <folding>
+                <marker date="1396244879543" expanded="true" signature="0:56" placeholder="import ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eece310/classManager/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="160">
+              <folding>
+                <marker date="1396244256431" expanded="true" signature="59:103" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eece310/classManager/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="208">
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classManager/classManager/views.py">
+        <entry file="file://$PROJECT_DIR$/eece310/classManager/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+            <state line="24" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="480">
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manager.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/django/db/models/manager.py">
+      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eece310/classManager/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="227" column="8" selection-start="8210" selection-end="8210" vertical-scroll-proportion="0.0" vertical-offset="3190" max-vertical-offset="4245">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classManager/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="-10.0" vertical-offset="315" max-vertical-offset="645">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classManager/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classManager/classManager/urls.py">
+        <entry file="file://$PROJECT_DIR$/eece310/eece310/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+            <state line="13" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -96,28 +129,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classManager/classManager/auth/__init__.py">
+      <file leaf-file-name="create_calendar.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eece310/classManager/templates/create_calendar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+            <state line="9" column="14" selection-start="189" selection-end="189" vertical-scroll-proportion="0.43768996" vertical-offset="0" max-vertical-offset="329">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classManager/templates/auth.html">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eece310/classManager/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="25" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logout.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classManager/templates/logout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
+            <state line="10" column="5" selection-start="341" selection-end="341" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="416">
               <folding />
             </state>
           </provider>
@@ -138,15 +162,34 @@
       <list>
         <option value="$PROJECT_DIR$/classManager/classManager/templates/auth.html" />
         <option value="$PROJECT_DIR$/classManager/classManager/auth/__init__.py" />
-        <option value="$PROJECT_DIR$/classManager/classManager/settings.py" />
-        <option value="$PROJECT_DIR$/classManager/classManager/views.py" />
-        <option value="$PROJECT_DIR$/classManager/classManager/urls.py" />
-        <option value="$PROJECT_DIR$/classManager/templates/index.html" />
         <option value="$PROJECT_DIR$/classManager/templates/auth.html" />
         <option value="$PROJECT_DIR$/classManager/templates/logout.html" />
         <option value="$PROJECT_DIR$/classManager/templates/register.html" />
+        <option value="$PROJECT_DIR$/classManager/templates/disqus.html" />
+        <option value="$PROJECT_DIR$/classManager/templates/main.html" />
+        <option value="$PROJECT_DIR$/classManager/templates/index.html" />
+        <option value="$PROJECT_DIR$/classManager/templates/login.html" />
         <option value="$PROJECT_DIR$/classManager/templates/base.html" />
         <option value="$PROJECT_DIR$/classManager/classManager/auth/views.py" />
+        <option value="$PROJECT_DIR$/classManager/templates/create_event.html" />
+        <option value="$PROJECT_DIR$/classManager/classManager/forms/create_event.py" />
+        <option value="$PROJECT_DIR$/classManager/templates/create_calendar.html" />
+        <option value="$PROJECT_DIR$/classManager/classManager/forms.py" />
+        <option value="$PROJECT_DIR$/classManager/templates/calendar.html" />
+        <option value="$PROJECT_DIR$/classManager/classManager/urls.py" />
+        <option value="$PROJECT_DIR$/classManager/classManager/views.py" />
+        <option value="$PROJECT_DIR$/classManager/classManager/models.py" />
+        <option value="$PROJECT_DIR$/classManager/urls.py" />
+        <option value="$PROJECT_DIR$/classManager/classManager/settings.py" />
+        <option value="$PROJECT_DIR$/eece310/eece310/settings.py" />
+        <option value="$PROJECT_DIR$/eece310/__init__.py" />
+        <option value="$PROJECT_DIR$/eece310/classManager/models.py" />
+        <option value="$PROJECT_DIR$/eece310/classManager/forms.py" />
+        <option value="$PROJECT_DIR$/eece310/classManager/urls.py" />
+        <option value="$PROJECT_DIR$/eece310/eece310/urls.py" />
+        <option value="$PROJECT_DIR$/eece310/classManager/templates/base.html" />
+        <option value="$PROJECT_DIR$/eece310/classManager/templates/create_calendar.html" />
+        <option value="$PROJECT_DIR$/eece310/classManager/views.py" />
       </list>
     </option>
   </component>
@@ -182,6 +225,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,6 +254,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="eece310" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eece310" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eece310" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eece310" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eece310" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eece310" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eece310" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eece310" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="classManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -218,6 +298,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="eece310" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eece310" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="eece310" />
@@ -232,56 +316,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eece310" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eece310" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eece310" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eece310" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -295,6 +338,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\eece310\classManager\eventApp" />
       <recent name="C:\git\eece310\classManager" />
     </key>
   </component>
@@ -427,12 +471,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classManager" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/eece310" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="eece310" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classManager/manage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eece310/manage.py" />
       <option name="PARAMETERS" value="runserver 8080" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -455,26 +499,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34262297" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34262297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -492,143 +536,129 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/classManager/eventApp/views.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/classManager/eventApp/views.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classManager/manage.py">
+    <entry file="file://C:/Python27/Lib/site-packages/django/db/models/manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="459">
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/templates/auth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1335">
+        <state line="217" column="0" selection-start="7912" selection-end="7912" vertical-scroll-proportion="0.0" vertical-offset="3472" max-vertical-offset="4528">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/db/models/manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="8" selection-start="8210" selection-end="8210" vertical-scroll-proportion="0.0" vertical-offset="3190" max-vertical-offset="4245">
+        <state line="239" column="0" selection-start="8691" selection-end="8691" vertical-scroll-proportion="0.0" vertical-offset="3472" max-vertical-offset="4528">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/urls.py">
+    <entry file="file://C:/Python27/Lib/site-packages/django/contrib/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+        <state line="86" column="16" selection-start="3084" selection-end="3084" vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="0" selection-start="4900" selection-end="4900" vertical-scroll-proportion="0.0" vertical-offset="1546" max-vertical-offset="4496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/contrib/auth/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="1136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eece310/eece310/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="23" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.0" vertical-offset="1081" max-vertical-offset="1472">
+          <folding>
+            <marker date="1396243907287" expanded="true" signature="0:244" placeholder="&quot;&quot;&quot;Django settings for eece310 project....&quot;&quot;&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eece310/classManager/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="160">
+          <folding>
+            <marker date="1396244256431" expanded="true" signature="59:103" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eece310/classManager/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="208">
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eece310/classManager/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eece310/eece310/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/templates/logout.html">
+    <entry file="file://$PROJECT_DIR$/eece310/classManager/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="25" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/templates/auth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="25" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="-10.0" vertical-offset="315" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+        <state line="9" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <marker date="1396244879543" expanded="true" signature="0:56" placeholder="import ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classManager/classManager/auth/views.py">
+    <entry file="file://$PROJECT_DIR$/eece310/classManager/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="13" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.63559324" vertical-offset="585" max-vertical-offset="1080">
+        <state line="24" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="480">
           <folding>
-            <element signature="e#0#65#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eece310/classManager/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="341" selection-end="341" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="416">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eece310/classManager/templates/create_calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="14" selection-start="189" selection-end="189" vertical-scroll-proportion="0.43768996" vertical-offset="0" max-vertical-offset="329">
+          <folding />
         </state>
       </provider>
     </entry>

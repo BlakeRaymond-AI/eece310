@@ -1,5 +1,5 @@
 """
-Django settings for classManager project.
+Django settings for eece310 project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -17,16 +17,15 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'd(u7y1&jgp=sh&$i*4&m#o%7bxu)568wqg1rr9@+6($&70jdu6'
+SECRET_KEY = '=^-5tf7llvpn7j^19l*f^4(k4^rq-b@00*!wa6)58rhnxb@xvx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
-
 ALLOWED_HOSTS = []
+
 
 # Application definition
 
@@ -37,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'classManager'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -48,9 +48,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'classManager.urls'
+ROOT_URLCONF = 'eece310.urls'
 
-WSGI_APPLICATION = 'classManager.wsgi.application'
+WSGI_APPLICATION = 'eece310.wsgi.application'
 
 
 # Database
@@ -76,6 +76,7 @@ USE_L10N = True
 
 USE_TZ = True
 
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
