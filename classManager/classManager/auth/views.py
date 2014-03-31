@@ -1,7 +1,7 @@
-from django.shortcuts import render_to_response, render, redirect
-from django.contrib.auth import authenticate, login
+from django.http import HttpResponseRedirect
+from django.shortcuts import render, redirect
+from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
-from django.template import loader, RequestContext
 
 
 def register_user(request):
@@ -38,7 +38,7 @@ def register_user(request):
 
 def login_user(request):
     state = "Please log in below..."
-    username = password = ''
+    username = ''
     if request.POST:
         username = request.POST.get('username')
         password = request.POST.get('password')
@@ -47,9 +47,10 @@ def login_user(request):
         if user is not None:
             if user.is_active:
                 login(request, user)
-                state = "You're successfully logged in!"
-                request.session['username'] = username
-                return redirect('/')
+                next = request.POST.get('next')
+                if next is None:
+                    next = '/'
+                return redirect(next)
             else:
                 state = "Your account is not active, please contact the site admin."
         else:
@@ -60,7 +61,7 @@ def login_user(request):
 
 def logout_user(request):
     message = "You are not logged in."
-    if 'username' in request.session:
-        del request.session['username']
+    if request.user.is_authenticated():
+        logout(request)
         message = "You have successfully logged out."
     return render(request, 'logout.html', {'message': message})
