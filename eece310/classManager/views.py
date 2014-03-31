@@ -16,6 +16,12 @@ def view_calendar(request, calendar_id):
     return render(request, "calendar.html", {"calendar": calendar, "events": events})
 
 @login_required
+def view_event(request, event_id):
+    event = get_object_or_404(Event, pk=event_id)
+    calendar = event.calendar
+    return render(request, "event.html", {"calendar": calendar, "event": event})
+
+@login_required
 def create_calendar(request):
     if request.method == "POST":
         form = CalendarForm(request.POST)

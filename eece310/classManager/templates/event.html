@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>{{ event.name }}</h1>
+
+{{ event.datetime }}
+{{ event.tags }}
+
+<form action="{% url 'view_calendar' calendar.id %}"  method="GET">
+    <input type="submit" value="Back to calendar"/>
+</form>
+
+{% endblock %}

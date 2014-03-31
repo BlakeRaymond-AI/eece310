@@ -3,12 +3,18 @@
 {% block content %}
 
 <h1>{{ calendar.name }}</h1>
-<ul>
-    {% for event in events %}
-    <li>{{ event.name }}</li>
-    {% endfor %}
-</ul>
 
-<a href="{% url 'create_event' calendar.id %}">Add event</a>
+<table width="30%">
+    {% for event in events %}
+    <tr>
+        <td><a href="{% url 'view_event' event.id %}">{{ event.name }}</a></td>
+        <td>{{ event.datetime }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<form action="{% url 'create_event' calendar.id %}"  method="GET">
+    <input type="submit" value="Add event"/>
+</form>
 
 {% endblock %}
