@@ -3,8 +3,10 @@ from django.core.urlresolvers import reverse
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render, redirect
 
-from models import Calendar, Event
-from forms import CalendarForm, EventForm
+from models import Calendar, Event, Message
+from forms import CalendarForm, EventForm, MessageForm
+
+from datetime import datetime
 
 def index(request):
     return HttpResponse("You're at the main page for Class Manager.")
@@ -19,7 +21,9 @@ def view_calendar(request, calendar_id):
 def view_event(request, event_id):
     event = get_object_or_404(Event, pk=event_id)
     calendar = event.calendar
-    return render(request, "event.html", {"calendar": calendar, "event": event})
+    form = MessageForm()
+    messages = Message.objects.filter(event=event).order_by('datetime')
+    return render(request, "event.html", {"calendar": calendar, "event": event, "messages": messages, "form": form})
 
 @login_required
 def create_calendar(request):
@@ -50,3 +54,15 @@ def create_event(request, calendar_id):
     form = EventForm()
     return render(request, 'create_event.html', {'form': form, 'calendar_id': calendar_id})
 
+@login_required
+def post_message(request, event_id):
+    if request.method == "POST":
+        form = MessageForm(request.POST)
+        if form.is_valid():
+            event = get_object_or_404(Event, pk=event_id)
+            message = form.cleaned_data['message']
+            user = request.user
+            message_obj = Message.objects.create(event=event, datetime=datetime.now(), user=user, message=message)
+            return HttpResponseRedirect(reverse("view_event", args=[event_id]))
+        else:
+            return HttpResponse(form.errors)
